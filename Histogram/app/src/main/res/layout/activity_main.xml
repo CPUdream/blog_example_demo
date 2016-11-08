@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <tech.liuyufeng.histogram.CustomHistogram
+        android:layout_width="wrap_content"
+        android:layout_height="250dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <tech.liuyufeng.histogram.rectangle
+        android:layout_width="20dp"
+        android:layout_height="182dp"
+        app:backgroud="#0000ff">
+    </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+    </LinearLayout>
+
+    <tech.liuyufeng.histogram.CustomViewGroup
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+        <tech.liuyufeng.histogram.CustomView
+            android:layout_width="200dp"
+            android:layout_height="173dp" />
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+        <tech.liuyufeng.histogram.rectangle
+            android:layout_width="20dp"
+            android:layout_height="182dp"
+            app:backgroud="#0000ff">
+        </tech.liuyufeng.histogram.rectangle>
+    </tech.liuyufeng.histogram.CustomViewGroup>
+</LinearLayout>
+</ScrollView>
